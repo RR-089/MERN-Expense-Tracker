@@ -47,6 +47,14 @@ export default function ButtonAppBar() {
                     {
                         isAuthenticated &&(
                             <>
+                                <Link to="/" className="text-white">
+                                    <Button 
+                                    color="inherit" 
+                                    variant="outlined"
+                                    sx={{ ...hoverStyle, marginRight: '1rem' }}>
+                                        Expenses
+                                    </Button>
+                                </Link>
                                 <Link to="/category" className="text-white">
                                     <Button 
                                     color="inherit" 
