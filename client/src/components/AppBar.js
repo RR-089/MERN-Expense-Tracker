@@ -39,7 +39,7 @@ export default function ButtonAppBar() {
                         to="/"
                         className="text-white"
                         >
-                            SpendWise
+                            SpendWisely
                         </Link>
                     </Typography>
 
